@@ -1,0 +1,100 @@
+.header__title, .header__subtitle{
+text-align: center;
+}
+.formInformation{
+  margin: 0 10%;
+}
+.formInformation__group{
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.formInformation__group label {
+  color:#767272;
+}
+.formInformation__group input {
+  padding: 15px;
+  border: solid 1px black;
+  border-radius: 5px;
+} 
+.formInformation__group input::placeholder{
+  
+  text-align:end;
+
+}
+
+.subtitle{
+  display: flex;
+  margin: 0 10%;
+  color:#767272;
+}
+.line{
+  width: 10px;
+  height: 20px;
+  margin: 0 1%;
+  background-color: #15A5F5;
+}
+
+.my{
+  margin: 15px 0px;
+}
+.container{
+  margin:0 10%;
+}
+.card{
+  margin: 0 5px;
+}
+.card__header{
+  text-align: center;
+}
+.card__body{
+  position: relative;
+}
+.row{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x:auto;
+}
+.d-block{
+  display: block;
+}
+.d-none{
+  display: none;
+}
+
+.btn__group{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 5px;
+  justify-content: flex-end;
+}
+.abstract{
+  background: #ececec;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.abstract p, h3{
+  margin: 10px 0;
+}
+.abstract__description{
+  display: flex;
+  align-items: center;
+}
+.btn--submit{
+  width: 80%;
+  background:rgb(0, 255, 191);
+  padding: 10px;
+  border:solid 1px #c4bebe;
+  font-size: 18px;
+  color: #767272;
+  cursor: pointer;
+}
+.m0{
+  margin: 0;
+}
+
+.text-muted{
+  color: rgb(112, 112, 112);
+}
